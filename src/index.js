@@ -15,8 +15,6 @@ import { syncHistoryWithStore } from 'react-router-redux';
 import configureStore from './configureStore';
 import App from './containers/App';
 import Home from './components/Home';
-import ReposByUser from './containers/ReposByUser';
-import Admin from './containers/Admin';
 import './index.css';
 
 const store = configureStore();
